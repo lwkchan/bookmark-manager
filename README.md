@@ -11,8 +11,9 @@ I want to be able to see a list of links
 
 ### Domain model
 
-```              
-USER ----print links-----> BOOKMARKS
-                               |
-                         display links
+```   
+ (client)                           (server)
+CONTROLLER ----retrieve links-----> BOOKMARKS
+    |                                   |
+    |      <--------[links]---------    |
 ```
