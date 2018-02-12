@@ -12,7 +12,7 @@ I want to be able to see a list of links
 ### Domain model
 
 ```              
-user      ----print links-----> bookmarks
-                                    |
-                              display links
+USER ----print links-----> BOOKMARKS
+                               |
+                         display links
 ```
