@@ -6,7 +6,6 @@ describe Link do
 
   describe 'class method #all' do
       it 'returns an array of link objects' do
-        described_class.create
         expect(described_class.all).to be_an Array
       end
     end
