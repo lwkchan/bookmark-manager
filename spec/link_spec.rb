@@ -8,5 +8,5 @@ describe Link do
       it 'returns an array of link objects' do
         expect(described_class.all).to be_an Array
       end
-    end
+  end
 end

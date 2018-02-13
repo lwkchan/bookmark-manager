@@ -9,5 +9,6 @@ gem "sinatra"
 gem "capybara"
 gem "shotgun"
 gem "selenium-webdriver"
+gem 'rake'
 gem "rspec"
 gem "pg"
